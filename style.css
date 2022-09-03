@@ -327,7 +327,7 @@ nav .h5{
 }
 footer{
     background: #1E1F21;
-    height: 681px;
+    height: 700px;
 }
 footer h6{
     padding-top: 50px;
@@ -417,4 +417,36 @@ ul{
 .foot-social a:hover{
     color: #99C2FF;
     transform: translateY(-5px);
+}
+.foot-col .input{
+    width: 240px;
+    height: 45px;
+    left: 1033px;
+    top: 439px;
+    margin-top: 50px;
+    background: #171717;
+    border: none;
+    text-align: center;
+}
+.foot-col #submit{
+    width: 52px;
+    height: 45px;
+    left: 1221px;
+    top: 439px;
+    margin-top: 50px;
+    background: #26262B;
+    border: none;
+    color:#FFFFFF;
+}
+.foot-col::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6D6D6D;
+}
+.foot-col #submit:hover{
+    color: #6d6d6d;
+    transform: translateY(-5px);
+    border: 1px solid #171717;
 }
